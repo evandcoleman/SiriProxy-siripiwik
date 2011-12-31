@@ -5,7 +5,7 @@
 ##########################
     
     - name: 'Piwik'
-      git: 'git://github.com/edc1591/siriproxy-piwik.git'
+      git: 'git://github.com/edc1591/siriproxy-siripiwik.git'
       sitename: "name of website"
       url: "link to piwik installation"
       apikey: "API_KEY"
