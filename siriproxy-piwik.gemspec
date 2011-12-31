@@ -2,7 +2,7 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "siriproxy-piwik"
+  s.name        = "siriproxy-siripiwik"
   s.version     = "0.0.1" 
   s.authors     = ["Evan Coleman"]
   s.email       = [""]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{A Siri Proxy Plugin for Piwik}
   s.description = %q{A plugin for SiriProxy that will allow you to check Piwik stats}
 
-  s.rubyforge_project = "siriproxy-piwik"
+  s.rubyforge_project = "siriproxy-siripiwik"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -21,5 +21,6 @@ Gem::Specification.new do |s|
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
   
-  s.add_runtime_dependency "piwik"
+  s.add_runtime_dependency "edc1591-piwik"
+  s.add_runtime_dependency "i18n"
 end

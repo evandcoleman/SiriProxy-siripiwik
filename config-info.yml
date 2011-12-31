@@ -4,5 +4,5 @@
 #NOTICE: Modifying these options in this file has no effect. You must put them in SiriProxy's config.yml!
 ##########################
     
-    - name: 'NBA'
-      git: 'git://github.com/vinced45/siriproxy-nba.git'
+    - name: 'Piwik'
+      git: 'git://github.com/edc1591/siriproxy-piwik.git'
